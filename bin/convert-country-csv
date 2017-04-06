@@ -1,0 +1,49 @@
+#!/usr/bin/env node
+
+// 
+// Script to take the country data from the Java RadioDNS country resolver
+// library and convert it to JSON
+//
+
+var fs = require('fs')
+var https = require('https')
+
+https.get('https://raw.githubusercontent.com/radiodns/java-CountryCodeResolver/master/src/org/radiodns/countrycode/countries.csv', (res) => {
+  if (res.statusCode !== 200) {
+    console.log('Request Failed. Status Code: '+ res.statusCode);
+    // consume response data to free up memory
+    res.resume();
+    return;
+  }
+
+  var rawData = '';
+  res.setEncoding('utf8');
+  res.on('data', function (chunk) {
+    rawData += chunk
+  });
+  res.on('end', function () {
+    var countries = []
+    var lines = rawData.split(/[\r\n]+/)
+    lines.forEach(function(line) {
+      var fields = line.split(',')
+      if (fields[0]) {
+        countries.push({
+          name: fields[0],
+          isoCode: fields[1],
+          ecc: fields[2],
+          countryIds: fields[3] ? fields[3].split(';') : [],
+          nearbyCountries: fields[4] ? fields[4].split(';') : []
+        })
+      }
+    })
+
+    fs.writeFile(
+      'countries-data.json',
+      JSON.stringify(countries, null, '  '),
+      'utf8',
+      function () { console.log('Done.') }
+    )
+  });
+}).on('error', function (e) {
+  console.log('Got error: ' + e.message);
+});
