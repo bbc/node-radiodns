@@ -3,16 +3,10 @@
 var assert = require('assert')
 var sinon = require('sinon')
 var dns = require('dns')
-var RadioDNS = require('../lib/radiodns')
+var radiodns = require('../lib/radiodns')
 
 describe('RadioDNS', function () {
-
   describe('constructFQDN', function () {
-    var radiodns
-    beforeEach(function () {
-      radiodns = new RadioDNS()
-    })
-
     describe('for FM/VHF system', function () {
       it('should construct a fqdn when frequency is supplied as a number', function () {
         var params = {
@@ -186,9 +180,12 @@ describe('RadioDNS', function () {
     })
 
     describe('with alternate root domain', function () {
-      var radiodns
-      beforeEach(function () {
-        radiodns = new RadioDNS('test.radiodns.org')
+      before(function () {
+        radiodns.setRootDomain('test.radiodns.org')
+      })
+
+      after(function () {
+        radiodns.setRootDomain('radiodns.org')
       })
 
       describe('for FM/VHF system', function () {
@@ -207,10 +204,8 @@ describe('RadioDNS', function () {
   })
 
   describe('resolve', function () {
-    var radiodns
     var mock
     beforeEach(function () {
-      radiodns = new RadioDNS()
       mock = sinon.mock(dns)
       mock.expects('resolveCname').once().callsFake(function (hostname, callback) {
         callback(undefined, ['rdns.musicradio.com'])
@@ -245,10 +240,8 @@ describe('RadioDNS', function () {
   })
 
   describe('resolveApplication', function () {
-    var radiodns
     var mock
     beforeEach(function () {
-      radiodns = new RadioDNS()
       mock = sinon.mock(dns)
       mock.expects('resolveCname').once().callsFake(function (hostname, callback) {
         callback(undefined, ['rdns.musicradio.com'])

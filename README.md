@@ -21,12 +21,11 @@ _RadioDNS Hybrid Radio; Hybrid lookup for radio services_.
 
 Add this to the top of your script
 
-    var RadioDNS = require('radiodns')
+    var radiodns = require('radiodns')
 
 Then if you already have the Fully Qualified Domain Name as specified
 in the RadioDNS spec ([ETSI TS 103 270]), you can resolve it into a CNAME like so
 
-    var radiodns = new RadioDNS()
     radiodns.resolve('09580.c479.ce1.fm.radiodns.org', function(err, fqdn) {
       console.log(fqdn) // => rdns.musicradio.com
     })
@@ -56,7 +55,6 @@ To perform the next step and resolve the servers for a specific application:
       gcc: 'ce1'
     }
 
-    var radiodns = new RadioDNS()
     radiodns.resolveApplication(params, 'radiovis', function (err, result) {
       console.log(result)
     })
