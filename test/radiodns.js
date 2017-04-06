@@ -1,6 +1,8 @@
 'use strict'
 
 var assert = require('assert')
+var sinon = require('sinon')
+var dns = require('dns')
 var RadioDNS = require('../lib/radiodns')
 
 describe('RadioDNS', function () {
@@ -204,4 +206,91 @@ describe('RadioDNS', function () {
     })
   })
 
+  describe('resolve', function () {
+    var radiodns
+    var mock
+    beforeEach(function () {
+      radiodns = new RadioDNS()
+      mock = sinon.mock(dns)
+      mock.expects('resolveCname').once().callsFake(function (hostname, callback) {
+        callback(undefined, ['rdns.musicradio.com'])
+      })
+    })
+
+    afterEach(function () {
+      mock.restore()
+    })
+
+    it('should query radiodns.org', function (done) {
+      radiodns.resolve('09580.c479.ce1.fm.radiodns.org', function (err, fqdn) {
+        assert.equal(err, undefined)
+        assert.equal(fqdn, 'rdns.musicradio.com')
+        done()
+      })
+    })
+
+    it('should accept object params too', function (done) {
+      var params = {
+        system: 'fm',
+        frequency: 95.8,
+        pi: 'c479',
+        gcc: 'ce1'
+      }
+      radiodns.resolve(params, function (err, fqdn) {
+        assert.equal(err, undefined)
+        assert.equal(fqdn, 'rdns.musicradio.com')
+        done()
+      })
+    })
+  })
+
+  describe('resolveApplication', function () {
+    var radiodns
+    var mock
+    beforeEach(function () {
+      radiodns = new RadioDNS()
+      mock = sinon.mock(dns)
+      mock.expects('resolveCname').once().callsFake(function (hostname, callback) {
+        callback(undefined, ['rdns.musicradio.com'])
+      })
+      mock.expects('resolveSrv').once().callsFake(function (hostname, callback) {
+        callback(undefined,
+          [ {
+            name: 'vis.musicradio.com',
+            port: 61613,
+            priority: 0,
+            weight: 100 }
+          ]
+        )
+      })
+    })
+
+    afterEach(function () {
+      mock.restore()
+    })
+
+    it('should query radiodns.org', function (done) {
+      radiodns.resolveApplication('09580.c479.ce1.fm.radiodns.org', 'radiovis', function (err, result) {
+        assert.equal(err, undefined)
+        assert.equal(result[0].name, 'vis.musicradio.com')
+        assert.equal(result[0].port, 61613)
+        done()
+      })
+    })
+
+    it('should accept object params too', function (done) {
+      var params = {
+        system: 'fm',
+        frequency: 95.8,
+        pi: 'c479',
+        gcc: 'ce1'
+      }
+      radiodns.resolveApplication(params, 'radiovis', function (err, result) {
+        assert.equal(err, undefined)
+        assert.equal(result[0].name, 'vis.musicradio.com')
+        assert.equal(result[0].port, 61613)
+        done()
+      })
+    })
+  })
 })
