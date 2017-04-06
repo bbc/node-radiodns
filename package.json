@@ -1,0 +1,33 @@
+{
+  "name": "radiodns",
+  "version": "0.1.0",
+  "description": "Perform RadioDNS resolutions and service lookups in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && standard",
+    "coverage": "istanbul cover _mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bbc/node-radiodns.git"
+  },
+  "keywords": [
+    "RadioDNS"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bbc/node-radiodns/issues"
+  },
+  "homepage": "https://github.com/bbc/node-radiodns#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0",
+    "standard": "^9.0.0"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
