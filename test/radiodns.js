@@ -169,6 +169,20 @@ describe('RadioDNS', function () {
       })
     })
 
+    describe('for an unknown system', function () {
+      it('should throw', function () {
+        var params = {
+          'system': 'njh'
+        }
+        assert.throws(
+          function () {
+            radiodns.constructFQDN(params)
+          },
+          /Missing system parameter when constructing FQDN/
+        )
+      })
+    })
+
     describe('with alternate root domain', function () {
       var radiodns
       beforeEach(function () {
