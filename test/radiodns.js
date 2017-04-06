@@ -12,23 +12,23 @@ describe('RadioDNS', function () {
     })
 
     describe('for FM/VHF system', function () {
-      it('should construct a fqdn when freq is supplied as a number', function () {
+      it('should construct a fqdn when frequency is supplied as a number', function () {
         var params = {
           'system': 'fm',
           'gcc': 'ce1',
           'pi': 'c585',
-          'freq': 95.8
+          'frequency': 95.8
         }
         var fqdn = radiodns.constructFQDN(params)
         assert.equal('09580.c585.ce1.fm.radiodns.org', fqdn)
       })
 
-      it('should construct a fqdn when freq is a string', function () {
+      it('should construct a fqdn when frequency is a string', function () {
         var params = {
           'system': 'fm',
           'gcc': 'ce1',
           'pi': 'c585',
-          'freq': '09580'
+          'frequency': '09580'
         }
         var fqdn = radiodns.constructFQDN(params)
         assert.equal('09580.c585.ce1.fm.radiodns.org', fqdn)
@@ -37,7 +37,7 @@ describe('RadioDNS', function () {
       it('should throw if parameters are missing', function () {
         var params = {
           'system': 'fm',
-          'freq': '09580'
+          'frequency': '09580'
         }
         assert.throws(
           function () {
@@ -195,7 +195,7 @@ describe('RadioDNS', function () {
             'system': 'fm',
             'gcc': 'ce1',
             'pi': 'c585',
-            'freq': '09580'
+            'frequency': '09580'
           }
           var fqdn = radiodns.constructFQDN(params)
           assert.equal('09580.c585.ce1.fm.test.radiodns.org', fqdn)
