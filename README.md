@@ -98,6 +98,29 @@ The required parameters for each of these systems are:
 
 
 
+## Running Tests
+
+    npm test
+
+To generate a test coverage report:
+
+    npm run coverage
+
+
+## License
+
+Copyright 2017 British Broadcasting Corporation
+
+The RadioVis STOMP Server is free software; you can redistribute it and/or
+modify it under the terms of the Apache License, Version 2.0.
+
+The RadioVis STOMP Server is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.  See the Apache License, Version 2.0 for
+more details.
+
+
+
 
 [node.js]:         https://nodejs.org/
 [RadioDNS]:        https://en.wikipedia.org/wiki/RadioDNS
