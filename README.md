@@ -8,7 +8,7 @@ RadioDNS node.js Library
 
 Perform [RadioDNS] resolutions and service lookups in [node.js].
 
-RadioVis was standardised in [ETSI TS 103 270],
+RadioDNS was standardised in [ETSI TS 103 270],
 _RadioDNS Hybrid Radio; Hybrid lookup for radio services_.
 
 
@@ -109,10 +109,10 @@ To generate a test coverage report:
 
 Copyright 2017 British Broadcasting Corporation
 
-The RadioVis STOMP Server is free software; you can redistribute it and/or
+The RadioDNS library for node.js is free software; you can redistribute it and/or
 modify it under the terms of the Apache License, Version 2.0.
 
-The RadioVis STOMP Server is distributed in the hope that it will be useful,
+The RadioDNS library for node.js is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 or FITNESS FOR A PARTICULAR PURPOSE.  See the Apache License, Version 2.0 for
 more details.
