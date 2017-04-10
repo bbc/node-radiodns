@@ -29,16 +29,16 @@ https.get('https://raw.githubusercontent.com/radiodns/java-CountryCodeResolver/m
       if (fields[0]) {
         countries.push({
           name: fields[0],
-          isoCode: fields[1],
-          ecc: fields[2],
-          countryIds: fields[3] ? fields[3].split(';') : [],
-          nearbyCountries: fields[4] ? fields[4].split(';') : []
+          isoCountryCode: fields[1].toLowerCase(),
+          ecc: fields[2].toLowerCase(),
+          countryIds: fields[3] ? fields[3].toLowerCase().split(';') : [],
+          nearbyCountries: fields[4] ? fields[4].toLowerCase().split(';') : []
         })
       }
     })
 
     fs.writeFile(
-      'countries-data.json',
+      'country-data.json',
       JSON.stringify(countries, null, '  '),
       'utf8',
       function () { console.log('Done.') }

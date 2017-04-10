@@ -1,0 +1,3348 @@
+[
+  {
+    "name": "Afghanistan",
+    "isoCountryCode": "af",
+    "ecc": "f0",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "c:cn",
+      "8:ir",
+      "4:pk",
+      "5:tj",
+      "e:tm",
+      "b:uz"
+    ]
+  },
+  {
+    "name": "Albania",
+    "isoCountryCode": "al",
+    "ecc": "e0",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "c:hr",
+      "1:gr",
+      "5:it",
+      "3:mk",
+      "d:rs"
+    ]
+  },
+  {
+    "name": "Algeria",
+    "isoCountryCode": "dz",
+    "ecc": "e0",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "d:ly",
+      "5:ml",
+      "4:mr",
+      "1:ma",
+      "8:ne",
+      "e:es",
+      "7:tn",
+      "3:eh"
+    ]
+  },
+  {
+    "name": "American Samoa",
+    "isoCountryCode": "as",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "4:ws",
+      "3:to"
+    ]
+  },
+  {
+    "name": "Andorra",
+    "isoCountryCode": "ad",
+    "ecc": "e0",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "f:fr",
+      "e:es"
+    ]
+  },
+  {
+    "name": "Angola",
+    "isoCountryCode": "ao",
+    "ecc": "d0",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "c:cg",
+      "1:na",
+      "e:zm"
+    ]
+  },
+  {
+    "name": "Anguilla",
+    "isoCountryCode": "ai",
+    "ecc": "a2",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "2:ag",
+      "8:nl",
+      "f:vi"
+    ]
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "isoCountryCode": "ag",
+    "ecc": "a2",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "a:kn",
+      "1:ai",
+      "5:ms",
+      "f:fr"
+    ]
+  },
+  {
+    "name": "Argentina",
+    "isoCountryCode": "ar",
+    "ecc": "a2",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "1:bo",
+      "b:br",
+      "c:cl",
+      "6:py",
+      "9:uy",
+      "4:fk"
+    ]
+  },
+  {
+    "name": "Armenia",
+    "isoCountryCode": "am",
+    "ecc": "e4",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "b:az",
+      "c:ge",
+      "8:ir",
+      "3:tr"
+    ]
+  },
+  {
+    "name": "Aruba",
+    "isoCountryCode": "aw",
+    "ecc": "a4",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "b:do",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Australia",
+    "isoCountryCode": "au",
+    "ecc": "f0",
+    "countryIds": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "nearbyCountries": [
+      "c:id",
+      "9:pg",
+      "a:sb"
+    ]
+  },
+  {
+    "name": "Austria",
+    "isoCountryCode": "at",
+    "ecc": "e0",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "2:cz",
+      "d:de",
+      "1:de",
+      "b:hu",
+      "5:it",
+      "9:li",
+      "5:sk",
+      "9:si",
+      "4:ch"
+    ]
+  },
+  {
+    "name": "Azerbaijan",
+    "isoCountryCode": "az",
+    "ecc": "e3",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "a:am",
+      "c:ge",
+      "8:ir",
+      "7:ru",
+      "3:tr",
+      "e:tm"
+    ]
+  },
+  {
+    "name": "Bahamas",
+    "isoCountryCode": "bs",
+    "ecc": "a2",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "1:us",
+      "2:us",
+      "3:us",
+      "4:us",
+      "5:us",
+      "6:us",
+      "7:us",
+      "8:us",
+      "9:us",
+      "a:us",
+      "b:us",
+      "d:us",
+      "e:us"
+    ]
+  },
+  {
+    "name": "Bahrain",
+    "isoCountryCode": "bh",
+    "ecc": "f0",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "8:ir",
+      "2:qa",
+      "9:sa"
+    ]
+  },
+  {
+    "name": "Bangladesh",
+    "isoCountryCode": "bd",
+    "ecc": "f1",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "b:mm",
+      "5:in"
+    ]
+  },
+  {
+    "name": "Barbados",
+    "isoCountryCode": "bb",
+    "ecc": "a2",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "f:gy",
+      "c:vc",
+      "6:tt",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Belarus",
+    "isoCountryCode": "by",
+    "ecc": "e3",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "9:lv",
+      "c:lt",
+      "8:pl",
+      "7:ru",
+      "6:ua"
+    ]
+  },
+  {
+    "name": "Belgium",
+    "isoCountryCode": "be",
+    "ecc": "e0",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "f:fr",
+      "d:de",
+      "1:de",
+      "7:lu",
+      "8:nl",
+      "c:gb"
+    ]
+  },
+  {
+    "name": "Belize",
+    "isoCountryCode": "bz",
+    "ecc": "a2",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "1:gt",
+      "2:hn",
+      "f:mx"
+    ]
+  },
+  {
+    "name": "Benin",
+    "isoCountryCode": "bj",
+    "ecc": "d0",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "b:bf",
+      "3:gh",
+      "8:ne",
+      "f:ng",
+      "d:tg"
+    ]
+  },
+  {
+    "name": "Bermuda",
+    "isoCountryCode": "bm",
+    "ecc": "a2",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": []
+  },
+  {
+    "name": "Bhutan",
+    "isoCountryCode": "bt",
+    "ecc": "f1",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "c:cn",
+      "5:in"
+    ]
+  },
+  {
+    "name": "Bolivia",
+    "isoCountryCode": "bo",
+    "ecc": "a3",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "a:ar",
+      "b:br",
+      "c:cl",
+      "6:py",
+      "7:pe"
+    ]
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "isoCountryCode": "ba",
+    "ecc": "e4",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "c:hr",
+      "1:me",
+      "d:rs"
+    ]
+  },
+  {
+    "name": "Botswana",
+    "isoCountryCode": "bw",
+    "ecc": "d1",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "1:na",
+      "a:za",
+      "e:zm",
+      "2:zw"
+    ]
+  },
+  {
+    "name": "Brazil",
+    "isoCountryCode": "br",
+    "ecc": "a2",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "a:ar",
+      "1:bo",
+      "2:co",
+      "f:gy",
+      "6:py",
+      "7:pe",
+      "8:sr",
+      "9:uy",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "isoCountryCode": "io",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "b:mv"
+    ]
+  },
+  {
+    "name": "British Virgin Islands",
+    "isoCountryCode": "vg",
+    "ecc": "a5",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "8:pr",
+      "f:vi"
+    ]
+  },
+  {
+    "name": "Brunei",
+    "isoCountryCode": "bn",
+    "ecc": "f1",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "f:my"
+    ]
+  },
+  {
+    "name": "Bulgaria",
+    "isoCountryCode": "bg",
+    "ecc": "e1",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "1:gr",
+      "3:mk",
+      "e:ro",
+      "d:rs",
+      "3:tr"
+    ]
+  },
+  {
+    "name": "Burkina Faso",
+    "isoCountryCode": "bf",
+    "ecc": "d0",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "e:bj",
+      "c:ci",
+      "3:gh",
+      "5:ml",
+      "8:ne",
+      "d:tg"
+    ]
+  },
+  {
+    "name": "Burma",
+    "isoCountryCode": "mm",
+    "ecc": "f0",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "3:bd",
+      "c:cn",
+      "5:in",
+      "1:la",
+      "2:th"
+    ]
+  },
+  {
+    "name": "Burundi",
+    "isoCountryCode": "bi",
+    "ecc": "d1",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "5:rw",
+      "d:tz"
+    ]
+  },
+  {
+    "name": "Cambodia",
+    "isoCountryCode": "kh",
+    "ecc": "f2",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "1:la",
+      "2:th",
+      "7:vn"
+    ]
+  },
+  {
+    "name": "Cameroon",
+    "isoCountryCode": "cm",
+    "ecc": "d0",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "2:cf",
+      "9:td",
+      "c:cg",
+      "7:gq",
+      "8:ga",
+      "f:ng"
+    ]
+  },
+  {
+    "name": "Canada",
+    "isoCountryCode": "ca",
+    "ecc": "a1",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "1:us",
+      "2:us",
+      "3:us",
+      "4:us",
+      "5:us",
+      "6:us",
+      "7:us",
+      "8:us",
+      "9:us",
+      "a:us",
+      "b:us",
+      "d:us",
+      "e:us",
+      "f:gl",
+      "f:pm"
+    ]
+  },
+  {
+    "name": "Cape Verde",
+    "isoCountryCode": "cv",
+    "ecc": "d1",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "8:gm",
+      "4:mr",
+      "7:sn"
+    ]
+  },
+  {
+    "name": "Cayman Islands",
+    "isoCountryCode": "ky",
+    "ecc": "a2",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "9:cu",
+      "3:jm"
+    ]
+  },
+  {
+    "name": "Central African Republic",
+    "isoCountryCode": "cf",
+    "ecc": "d0",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "1:cm",
+      "9:td",
+      "c:cg",
+      "c:sd"
+    ]
+  },
+  {
+    "name": "Chad",
+    "isoCountryCode": "td",
+    "ecc": "d2",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "1:cm",
+      "2:cf",
+      "d:ly",
+      "8:ne",
+      "f:ng",
+      "c:sd"
+    ]
+  },
+  {
+    "name": "Chile",
+    "isoCountryCode": "cl",
+    "ecc": "a3",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "a:ar",
+      "1:bo",
+      "7:pe"
+    ]
+  },
+  {
+    "name": "China",
+    "isoCountryCode": "cn",
+    "ecc": "f0",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "a:af",
+      "2:bt",
+      "b:mm",
+      "5:in",
+      "9:jp",
+      "d:kz",
+      "d:kp",
+      "3:kg",
+      "1:la",
+      "f:mn",
+      "e:np",
+      "4:pk",
+      "8:ph",
+      "7:ru",
+      "5:tj",
+      "7:vn",
+      "f:hk",
+      "6:mo"
+    ]
+  },
+  {
+    "name": "Christmas Island",
+    "isoCountryCode": "cx",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "c:id"
+    ]
+  },
+  {
+    "name": "Colombia",
+    "isoCountryCode": "co",
+    "ecc": "a3",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "b:br",
+      "8:cr",
+      "3:ec",
+      "d:ht",
+      "2:hn",
+      "7:ni",
+      "9:pa",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Comoros",
+    "isoCountryCode": "km",
+    "ecc": "d1",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "f:fr",
+      "4:mg",
+      "3:mz",
+      "b:sc",
+      "d:tz"
+    ]
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "isoCountryCode": "cd",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "6:ao",
+      "9:bi",
+      "2:cf",
+      "c:cg",
+      "5:rw",
+      "d:tz",
+      "4:ug",
+      "e:zm"
+    ]
+  },
+  {
+    "name": "Republic of the Congo",
+    "isoCountryCode": "cg",
+    "ecc": "d0",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "6:ao",
+      "1:cm",
+      "2:cf",
+      "8:ga"
+    ]
+  },
+  {
+    "name": "Cook Islands",
+    "isoCountryCode": "ck",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "1:ki"
+    ]
+  },
+  {
+    "name": "Costa Rica",
+    "isoCountryCode": "cr",
+    "ecc": "a2",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "2:co",
+      "3:ec",
+      "7:ni",
+      "9:pa"
+    ]
+  },
+  {
+    "name": "Cte d'Ivoire",
+    "isoCountryCode": "ci",
+    "ecc": "d2",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "b:bf",
+      "3:gh",
+      "9:gn",
+      "2:lr",
+      "5:ml"
+    ]
+  },
+  {
+    "name": "Croatia",
+    "isoCountryCode": "hr",
+    "ecc": "e3",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "f:ba",
+      "b:hu",
+      "5:it",
+      "1:me",
+      "d:rs",
+      "9:si"
+    ]
+  },
+  {
+    "name": "Cuba",
+    "isoCountryCode": "cu",
+    "ecc": "a2",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "d:ht",
+      "2:hn",
+      "3:jm",
+      "7:ky"
+    ]
+  },
+  {
+    "name": "Curaao",
+    "isoCountryCode": "cw",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "b:do",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Cyprus",
+    "isoCountryCode": "cy",
+    "ecc": "e1",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "f:eg",
+      "1:gr",
+      "4:il",
+      "a:lb",
+      "3:tr"
+    ]
+  },
+  {
+    "name": "Czech Republic",
+    "isoCountryCode": "cz",
+    "ecc": "e2",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "a:at",
+      "d:de",
+      "1:de",
+      "8:pl",
+      "5:sk"
+    ]
+  },
+  {
+    "name": "Denmark",
+    "isoCountryCode": "dk",
+    "ecc": "e1",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "d:de",
+      "1:de",
+      "f:no",
+      "8:pl",
+      "e:se",
+      "c:gb"
+    ]
+  },
+  {
+    "name": "Djibouti",
+    "isoCountryCode": "dj",
+    "ecc": "d0",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "e:et",
+      "7:so",
+      "b:ye"
+    ]
+  },
+  {
+    "name": "Dominica",
+    "isoCountryCode": "dm",
+    "ecc": "a3",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "f:fr",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Dominican Republic",
+    "isoCountryCode": "do",
+    "ecc": "a3",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "2:co",
+      "d:ht",
+      "3:aw",
+      "8:pr",
+      "e:tc"
+    ]
+  },
+  {
+    "name": "Ecuador",
+    "isoCountryCode": "ec",
+    "ecc": "a2",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "2:co",
+      "8:cr",
+      "7:pe"
+    ]
+  },
+  {
+    "name": "Egypt",
+    "isoCountryCode": "eg",
+    "ecc": "e0",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "2:cy",
+      "1:gr",
+      "4:il",
+      "5:jo",
+      "d:ly",
+      "9:sa",
+      "c:sd",
+      "3:tr"
+    ]
+  },
+  {
+    "name": "El Salvador",
+    "isoCountryCode": "sv",
+    "ecc": "a4",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "1:gt",
+      "2:hn",
+      "7:ni"
+    ]
+  },
+  {
+    "name": "Equatorial Guinea",
+    "isoCountryCode": "gq",
+    "ecc": "d0",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "1:cm",
+      "8:ga",
+      "f:ng"
+    ]
+  },
+  {
+    "name": "Eritrea",
+    "isoCountryCode": "er",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "3:dj",
+      "9:sa",
+      "c:sd",
+      "e:et",
+      "b:ye"
+    ]
+  },
+  {
+    "name": "Estonia",
+    "isoCountryCode": "ee",
+    "ecc": "e4",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "6:fi",
+      "9:lv",
+      "7:ru",
+      "e:se"
+    ]
+  },
+  {
+    "name": "Ethiopia",
+    "isoCountryCode": "et",
+    "ecc": "d1",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "3:dj",
+      "6:ke",
+      "7:so",
+      "c:sd"
+    ]
+  },
+  {
+    "name": "Falkland Islands",
+    "isoCountryCode": "fk",
+    "ecc": "a2",
+    "countryIds": [
+      "4"
+    ],
+    "nearbyCountries": [
+      "a:ar"
+    ]
+  },
+  {
+    "name": "Faroe Islands",
+    "isoCountryCode": "fo",
+    "ecc": "e1",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "a:is",
+      "f:no",
+      "c:gb"
+    ]
+  },
+  {
+    "name": "Fiji",
+    "isoCountryCode": "fj",
+    "ecc": "f1",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "3:to",
+      "f:vu"
+    ]
+  },
+  {
+    "name": "Finland",
+    "isoCountryCode": "fi",
+    "ecc": "e1",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "2:ee",
+      "f:no",
+      "7:ru",
+      "e:se"
+    ]
+  },
+  {
+    "name": "France",
+    "isoCountryCode": "fr",
+    "ecc": "e1",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "3:ad",
+      "6:be",
+      "d:de",
+      "1:de",
+      "5:it",
+      "7:lu",
+      "b:mc",
+      "e:es",
+      "4:ch",
+      "c:gb"
+    ]
+  },
+  {
+    "name": "French Polynesia",
+    "isoCountryCode": "pf",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "1:ki"
+    ]
+  },
+  {
+    "name": "Gabon",
+    "isoCountryCode": "ga",
+    "ecc": "d0",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "1:cm",
+      "c:cg",
+      "7:gq"
+    ]
+  },
+  {
+    "name": "The Gambia",
+    "isoCountryCode": "gm",
+    "ecc": "d1",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "6:cv",
+      "7:sn"
+    ]
+  },
+  {
+    "name": "Georgia",
+    "isoCountryCode": "ge",
+    "ecc": "e4",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "a:am",
+      "b:az",
+      "7:ru",
+      "3:tr",
+      "6:ua"
+    ]
+  },
+  {
+    "name": "Germany",
+    "isoCountryCode": "de",
+    "ecc": "e0",
+    "countryIds": [
+      "d",
+      "1"
+    ],
+    "nearbyCountries": [
+      "a:at",
+      "6:be",
+      "2:cz",
+      "9:dk",
+      "f:fr",
+      "7:lu",
+      "8:nl",
+      "8:pl",
+      "e:se",
+      "4:ch",
+      "c:gb"
+    ]
+  },
+  {
+    "name": "Ghana",
+    "isoCountryCode": "gh",
+    "ecc": "d1",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "e:bj",
+      "b:bf",
+      "c:ci",
+      "f:ng",
+      "d:tg"
+    ]
+  },
+  {
+    "name": "Gibraltar",
+    "isoCountryCode": "gi",
+    "ecc": "e1",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "1:ma",
+      "e:es"
+    ]
+  },
+  {
+    "name": "Greece",
+    "isoCountryCode": "gr",
+    "ecc": "e1",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "9:al",
+      "8:bg",
+      "2:cy",
+      "f:eg",
+      "5:it",
+      "d:ly",
+      "3:mk",
+      "3:tr"
+    ]
+  },
+  {
+    "name": "Greenland",
+    "isoCountryCode": "gl",
+    "ecc": "a1",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "c:ca",
+      "a:is",
+      "f:no"
+    ]
+  },
+  {
+    "name": "Grenada",
+    "isoCountryCode": "gd",
+    "ecc": "a3",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "c:vc",
+      "6:tt"
+    ]
+  },
+  {
+    "name": "Guam",
+    "isoCountryCode": "gu",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "e:fm"
+    ]
+  },
+  {
+    "name": "Guatemala",
+    "isoCountryCode": "gt",
+    "ecc": "a4",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "6:bz",
+      "c:sv",
+      "2:hn",
+      "f:mx"
+    ]
+  },
+  {
+    "name": "Guernsey",
+    "isoCountryCode": "gg",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "f:fr",
+      "c:gb"
+    ]
+  },
+  {
+    "name": "Guinea",
+    "isoCountryCode": "gn",
+    "ecc": "d0",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "c:ci",
+      "a:gw",
+      "2:lr",
+      "5:ml",
+      "7:sn",
+      "1:sl"
+    ]
+  },
+  {
+    "name": "GuineaBissau",
+    "isoCountryCode": "gw",
+    "ecc": "d2",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "9:gn",
+      "7:sn"
+    ]
+  },
+  {
+    "name": "Guyana",
+    "isoCountryCode": "gy",
+    "ecc": "a3",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "5:bb",
+      "b:br",
+      "8:sr",
+      "6:tt",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Haiti",
+    "isoCountryCode": "ht",
+    "ecc": "a4",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "f:bs",
+      "2:co",
+      "9:cu",
+      "b:do",
+      "3:jm",
+      "e:tc"
+    ]
+  },
+  {
+    "name": "Honduras",
+    "isoCountryCode": "hn",
+    "ecc": "a4",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "6:bz",
+      "2:co",
+      "9:cu",
+      "c:sv",
+      "1:gt",
+      "f:mx",
+      "7:ni"
+    ]
+  },
+  {
+    "name": "Hong Kong",
+    "isoCountryCode": "hk",
+    "ecc": "f1",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": []
+  },
+  {
+    "name": "Hungary",
+    "isoCountryCode": "hu",
+    "ecc": "e0",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "a:at",
+      "c:hr",
+      "e:ro",
+      "d:rs",
+      "5:sk",
+      "9:si",
+      "6:ua"
+    ]
+  },
+  {
+    "name": "Iceland",
+    "isoCountryCode": "is",
+    "ecc": "e2",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "9:fo",
+      "f:gl"
+    ]
+  },
+  {
+    "name": "India",
+    "isoCountryCode": "in",
+    "ecc": "f2",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "a:af",
+      "3:bd",
+      "2:bt",
+      "b:mm",
+      "c:cn",
+      "e:np",
+      "4:pk",
+      "c:lk"
+    ]
+  },
+  {
+    "name": "Indonesia",
+    "isoCountryCode": "id",
+    "ecc": "f2",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "1:au",
+      "2:au",
+      "3:au",
+      "4:au",
+      "5:au",
+      "6:au",
+      "7:au",
+      "8:au",
+      "f:my",
+      "9:pg",
+      "a:sg"
+    ]
+  },
+  {
+    "name": "Iran",
+    "isoCountryCode": "ir",
+    "ecc": "f1",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "a:af",
+      "a:am",
+      "b:az",
+      "b:iq",
+      "1:kw",
+      "6:om",
+      "4:pk",
+      "2:qa",
+      "9:sa",
+      "3:tr",
+      "e:tm",
+      "d:ae"
+    ]
+  },
+  {
+    "name": "Iraq",
+    "isoCountryCode": "iq",
+    "ecc": "e1",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "8:ir",
+      "5:jo",
+      "1:kw",
+      "9:sa",
+      "3:tr"
+    ]
+  },
+  {
+    "name": "Ireland",
+    "isoCountryCode": "ie",
+    "ecc": "e3",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "c:gb"
+    ]
+  },
+  {
+    "name": "Isle of Man",
+    "isoCountryCode": "im",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "c:gb",
+      "2:ie"
+    ]
+  },
+  {
+    "name": "Israel",
+    "isoCountryCode": "il",
+    "ecc": "e0",
+    "countryIds": [
+      "4"
+    ],
+    "nearbyCountries": [
+      "2:cy",
+      "f:eg",
+      "5:jo",
+      "a:lb"
+    ]
+  },
+  {
+    "name": "Italy",
+    "isoCountryCode": "it",
+    "ecc": "e0",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "9:al",
+      "2:dz",
+      "a:at",
+      "c:hr",
+      "f:fr",
+      "1:gr",
+      "d:ly",
+      "3:sm",
+      "9:si",
+      "e:es",
+      "4:ch",
+      "7:tn",
+      "4:va"
+    ]
+  },
+  {
+    "name": "Jamaica",
+    "isoCountryCode": "jm",
+    "ecc": "a3",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "2:co",
+      "9:cu",
+      "d:ht",
+      "7:ky"
+    ]
+  },
+  {
+    "name": "Japan",
+    "isoCountryCode": "jp",
+    "ecc": "f2",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "c:cn",
+      "e:kr",
+      "8:ph",
+      "7:ru"
+    ]
+  },
+  {
+    "name": "Jersey",
+    "isoCountryCode": "je",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "f:fr",
+      "c:gb"
+    ]
+  },
+  {
+    "name": "Jordan",
+    "isoCountryCode": "jo",
+    "ecc": "e1",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "f:eg",
+      "b:iq",
+      "4:il",
+      "9:sa"
+    ]
+  },
+  {
+    "name": "Kazakhstan",
+    "isoCountryCode": "kz",
+    "ecc": "e3",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "c:cn",
+      "3:kg",
+      "7:ru",
+      "e:tm",
+      "b:uz"
+    ]
+  },
+  {
+    "name": "Kenya",
+    "isoCountryCode": "ke",
+    "ecc": "d2",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "e:et",
+      "7:so",
+      "d:tz",
+      "4:ug"
+    ]
+  },
+  {
+    "name": "Kiribati",
+    "isoCountryCode": "ki",
+    "ecc": "f1",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "7:nr"
+    ]
+  },
+  {
+    "name": "North Korea",
+    "isoCountryCode": "kp",
+    "ecc": "f0",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "c:cn",
+      "9:jp",
+      "e:kr",
+      "7:ru"
+    ]
+  },
+  {
+    "name": "South Korea",
+    "isoCountryCode": "kr",
+    "ecc": "f1",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "c:cn",
+      "9:jp",
+      "d:kp"
+    ]
+  },
+  {
+    "name": "Kuwait",
+    "isoCountryCode": "kw",
+    "ecc": "f2",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "8:ir",
+      "b:iq",
+      "9:sa"
+    ]
+  },
+  {
+    "name": "Kyrgyzstan",
+    "isoCountryCode": "kg",
+    "ecc": "e4",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "c:cn",
+      "d:kz",
+      "5:tj",
+      "b:uz"
+    ]
+  },
+  {
+    "name": "Laos",
+    "isoCountryCode": "la",
+    "ecc": "f3",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "b:mm",
+      "3:kh",
+      "c:cn",
+      "2:th",
+      "7:vn"
+    ]
+  },
+  {
+    "name": "Latvia",
+    "isoCountryCode": "lv",
+    "ecc": "e3",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "f:by",
+      "2:ee",
+      "c:lt",
+      "7:ru",
+      "e:se"
+    ]
+  },
+  {
+    "name": "Lebanon",
+    "isoCountryCode": "lb",
+    "ecc": "e3",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "2:cy",
+      "4:il"
+    ]
+  },
+  {
+    "name": "Lesotho",
+    "isoCountryCode": "ls",
+    "ecc": "d3",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "a:za"
+    ]
+  },
+  {
+    "name": "Liberia",
+    "isoCountryCode": "lr",
+    "ecc": "d1",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "c:ci",
+      "9:gn",
+      "1:sl"
+    ]
+  },
+  {
+    "name": "Libya",
+    "isoCountryCode": "ly",
+    "ecc": "e1",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "2:dz",
+      "9:td",
+      "f:eg",
+      "1:gr",
+      "5:it",
+      "8:ne",
+      "c:sd",
+      "7:tn"
+    ]
+  },
+  {
+    "name": "Liechtenstein",
+    "isoCountryCode": "li",
+    "ecc": "e2",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "a:at",
+      "4:ch"
+    ]
+  },
+  {
+    "name": "Lithuania",
+    "isoCountryCode": "lt",
+    "ecc": "e2",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "f:by",
+      "9:lv",
+      "8:pl",
+      "7:ru",
+      "e:se"
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "isoCountryCode": "lu",
+    "ecc": "e1",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "6:be",
+      "f:fr",
+      "d:de",
+      "1:de"
+    ]
+  },
+  {
+    "name": "Macau",
+    "isoCountryCode": "mo",
+    "ecc": "f2",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": []
+  },
+  {
+    "name": "Republic of Macedonia",
+    "isoCountryCode": "mk",
+    "ecc": "e4",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "9:al",
+      "8:bg",
+      "1:gr",
+      "d:rs"
+    ]
+  },
+  {
+    "name": "Madagascar",
+    "isoCountryCode": "mg",
+    "ecc": "d0",
+    "countryIds": [
+      "4"
+    ],
+    "nearbyCountries": [
+      "c:km",
+      "f:fr",
+      "3:mz",
+      "b:sc"
+    ]
+  },
+  {
+    "name": "Malawi",
+    "isoCountryCode": "mw",
+    "ecc": "d0",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "3:mz",
+      "d:tz",
+      "e:zm"
+    ]
+  },
+  {
+    "name": "Malaysia",
+    "isoCountryCode": "my",
+    "ecc": "f0",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "b:bn",
+      "c:id",
+      "8:ph",
+      "a:sg",
+      "2:th",
+      "7:vn"
+    ]
+  },
+  {
+    "name": "Maldives",
+    "isoCountryCode": "mv",
+    "ecc": "f2",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "5:in",
+      "c:lk"
+    ]
+  },
+  {
+    "name": "Mali",
+    "isoCountryCode": "ml",
+    "ecc": "d0",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "2:dz",
+      "b:bf",
+      "c:ci",
+      "9:gn",
+      "4:mr",
+      "8:ne",
+      "7:sn"
+    ]
+  },
+  {
+    "name": "Malta",
+    "isoCountryCode": "mt",
+    "ecc": "e0",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "5:it",
+      "d:ly"
+    ]
+  },
+  {
+    "name": "Marshall Islands",
+    "isoCountryCode": "mh",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "1:ki",
+      "e:fm",
+      "7:nr"
+    ]
+  },
+  {
+    "name": "Mauritania",
+    "isoCountryCode": "mr",
+    "ecc": "d1",
+    "countryIds": [
+      "4"
+    ],
+    "nearbyCountries": [
+      "2:dz",
+      "6:cv",
+      "5:ml",
+      "1:ma",
+      "7:sn",
+      "3:eh"
+    ]
+  },
+  {
+    "name": "Mauritius",
+    "isoCountryCode": "mu",
+    "ecc": "d3",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "f:fr",
+      "b:sc"
+    ]
+  },
+  {
+    "name": "Mayotte",
+    "isoCountryCode": "yt",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "c:km",
+      "4:mg"
+    ]
+  },
+  {
+    "name": "Mexico",
+    "isoCountryCode": "mx",
+    "ecc": "a4",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "6:bz",
+      "1:gt",
+      "1:us",
+      "2:us",
+      "3:us",
+      "4:us",
+      "5:us",
+      "6:us",
+      "7:us",
+      "8:us",
+      "9:us",
+      "a:us",
+      "b:us",
+      "d:us",
+      "e:us"
+    ]
+  },
+  {
+    "name": "Federated States of Micronesia",
+    "isoCountryCode": "fm",
+    "ecc": "f3",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "9:pg"
+    ]
+  },
+  {
+    "name": "Moldova",
+    "isoCountryCode": "md",
+    "ecc": "e4",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "e:ro",
+      "6:ua"
+    ]
+  },
+  {
+    "name": "Monaco",
+    "isoCountryCode": "mc",
+    "ecc": "e2",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "f:fr"
+    ]
+  },
+  {
+    "name": "Mongolia",
+    "isoCountryCode": "mn",
+    "ecc": "f3",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "c:cn",
+      "7:ru"
+    ]
+  },
+  {
+    "name": "Montenegro",
+    "isoCountryCode": "me",
+    "ecc": "e3",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "9:al",
+      "f:ba",
+      "c:hr",
+      "5:it",
+      "d:rs"
+    ]
+  },
+  {
+    "name": "Montserrat",
+    "isoCountryCode": "ms",
+    "ecc": "a4",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "2:ag",
+      "f:fr",
+      "a:kn",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Morocco",
+    "isoCountryCode": "ma",
+    "ecc": "e2",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "2:dz",
+      "8:pt",
+      "e:es",
+      "4:mr",
+      "3:eh"
+    ]
+  },
+  {
+    "name": "Mozambique",
+    "isoCountryCode": "mz",
+    "ecc": "d2",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "c:km",
+      "4:mg",
+      "f:mw",
+      "a:za",
+      "5:sz",
+      "d:tz",
+      "e:zm",
+      "2:zw"
+    ]
+  },
+  {
+    "name": "Namibia",
+    "isoCountryCode": "na",
+    "ecc": "d1",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "6:ao",
+      "b:bw",
+      "a:za",
+      "e:zm"
+    ]
+  },
+  {
+    "name": "Nauru",
+    "isoCountryCode": "nr",
+    "ecc": "f1",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "1:ki"
+    ]
+  },
+  {
+    "name": "Nepal",
+    "isoCountryCode": "np",
+    "ecc": "f2",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "5:in",
+      "c:cn"
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "isoCountryCode": "nl",
+    "ecc": "e3",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "6:be",
+      "d:de",
+      "1:de",
+      "a:kn",
+      "c:gb",
+      "e:ve",
+      "1:ai",
+      "f:vi"
+    ]
+  },
+  {
+    "name": "New Caledonia",
+    "isoCountryCode": "nc",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "9:pg",
+      "a:sb",
+      "f:vu"
+    ]
+  },
+  {
+    "name": "New Zealand",
+    "isoCountryCode": "nz",
+    "ecc": "f1",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": []
+  },
+  {
+    "name": "Nicaragua",
+    "isoCountryCode": "ni",
+    "ecc": "a3",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "8:cr",
+      "c:sv",
+      "2:hn"
+    ]
+  },
+  {
+    "name": "Niger",
+    "isoCountryCode": "ne",
+    "ecc": "d2",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "2:dz",
+      "e:bj",
+      "b:bf",
+      "9:td",
+      "d:ly",
+      "5:ml",
+      "f:ng"
+    ]
+  },
+  {
+    "name": "Nigeria",
+    "isoCountryCode": "ng",
+    "ecc": "d1",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "e:bj",
+      "1:cm",
+      "9:td",
+      "7:gq",
+      "3:gh",
+      "8:ne"
+    ]
+  },
+  {
+    "name": "Niue",
+    "isoCountryCode": "nu",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "3:to"
+    ]
+  },
+  {
+    "name": "Norfolk Island",
+    "isoCountryCode": "nf",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "9:nz"
+    ]
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "isoCountryCode": "mp",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "9:jp"
+    ]
+  },
+  {
+    "name": "Norway",
+    "isoCountryCode": "no",
+    "ecc": "e2",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "9:dk",
+      "6:fi",
+      "a:is",
+      "7:ru",
+      "e:se",
+      "c:gb",
+      "f:gl"
+    ]
+  },
+  {
+    "name": "Oman",
+    "isoCountryCode": "om",
+    "ecc": "f1",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "8:ir",
+      "4:pk",
+      "9:sa",
+      "d:ae",
+      "b:ye"
+    ]
+  },
+  {
+    "name": "Pakistan",
+    "isoCountryCode": "pk",
+    "ecc": "f1",
+    "countryIds": [
+      "4"
+    ],
+    "nearbyCountries": [
+      "a:af",
+      "c:cn",
+      "5:in",
+      "8:ir",
+      "6:om"
+    ]
+  },
+  {
+    "name": "Palau",
+    "isoCountryCode": "pw",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "c:id",
+      "e:fm",
+      "8:ph"
+    ]
+  },
+  {
+    "name": "Panama",
+    "isoCountryCode": "pa",
+    "ecc": "a3",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "2:co",
+      "8:cr"
+    ]
+  },
+  {
+    "name": "Papua New Guinea",
+    "isoCountryCode": "pg",
+    "ecc": "f3",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "1:au",
+      "2:au",
+      "3:au",
+      "4:au",
+      "5:au",
+      "6:au",
+      "7:au",
+      "8:au",
+      "c:id",
+      "e:fm",
+      "a:sb"
+    ]
+  },
+  {
+    "name": "Paraguay",
+    "isoCountryCode": "py",
+    "ecc": "a3",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "a:ar",
+      "1:bo",
+      "b:br"
+    ]
+  },
+  {
+    "name": "Peru",
+    "isoCountryCode": "pe",
+    "ecc": "a4",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "1:bo",
+      "b:br",
+      "c:cl",
+      "2:co",
+      "3:ec"
+    ]
+  },
+  {
+    "name": "Philippines",
+    "isoCountryCode": "ph",
+    "ecc": "f2",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "c:id",
+      "9:jp",
+      "f:my",
+      "7:vn",
+      "d:tw"
+    ]
+  },
+  {
+    "name": "Poland",
+    "isoCountryCode": "pl",
+    "ecc": "e4",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "f:by",
+      "2:cz",
+      "9:dk",
+      "d:de",
+      "1:de",
+      "c:lt",
+      "7:ru",
+      "5:sk",
+      "e:se",
+      "6:ua"
+    ]
+  },
+  {
+    "name": "Portugal",
+    "isoCountryCode": "pt",
+    "ecc": "e0",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "1:ma",
+      "e:es"
+    ]
+  },
+  {
+    "name": "Puerto Rico",
+    "isoCountryCode": "pr",
+    "ecc": "a3",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "b:do",
+      "e:ve",
+      "f:vg"
+    ]
+  },
+  {
+    "name": "Qatar",
+    "isoCountryCode": "qa",
+    "ecc": "f2",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "e:bh",
+      "8:ir",
+      "9:sa",
+      "d:ae"
+    ]
+  },
+  {
+    "name": "Romania",
+    "isoCountryCode": "ro",
+    "ecc": "e1",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "8:bg",
+      "b:hu",
+      "1:md",
+      "d:rs",
+      "3:tr",
+      "6:ua"
+    ]
+  },
+  {
+    "name": "Russia",
+    "isoCountryCode": "ru",
+    "ecc": "e0",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "b:az",
+      "f:by",
+      "c:cn",
+      "2:ee",
+      "6:fi",
+      "c:ge",
+      "d:kz",
+      "9:lv",
+      "c:lt",
+      "f:mn",
+      "f:no",
+      "8:pl",
+      "e:se",
+      "6:ua",
+      "1:us",
+      "2:us",
+      "3:us",
+      "4:us",
+      "5:us",
+      "6:us",
+      "7:us",
+      "8:us",
+      "9:us",
+      "a:us",
+      "b:us",
+      "d:us",
+      "e:us"
+    ]
+  },
+  {
+    "name": "Rwanda",
+    "isoCountryCode": "rw",
+    "ecc": "d3",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "9:bi",
+      "d:tz",
+      "4:ug"
+    ]
+  },
+  {
+    "name": "Saint Barthlemy",
+    "isoCountryCode": "bl",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "2:ag",
+      "8:nl",
+      "a:kn"
+    ]
+  },
+  {
+    "name": "Saint Helena Ascension and Tristan da Cunha",
+    "isoCountryCode": "sh",
+    "ecc": "d1",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": []
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "isoCountryCode": "kn",
+    "ecc": "a4",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "2:ag",
+      "8:nl",
+      "e:ve",
+      "5:ms"
+    ]
+  },
+  {
+    "name": "Saint Lucia",
+    "isoCountryCode": "lc",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "5:bb",
+      "f:fr",
+      "c:vc",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Saint Martin",
+    "isoCountryCode": "mf",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "8:nl",
+      "1:ai"
+    ]
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "isoCountryCode": "pm",
+    "ecc": "a6",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "c:ca"
+    ]
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "isoCountryCode": "vc",
+    "ecc": "a5",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "5:bb",
+      "d:gd",
+      "6:tt",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Samoa",
+    "isoCountryCode": "ws",
+    "ecc": "f2",
+    "countryIds": [
+      "4"
+    ],
+    "nearbyCountries": [
+      "3:to"
+    ]
+  },
+  {
+    "name": "San Marino",
+    "isoCountryCode": "sm",
+    "ecc": "e1",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "5:it"
+    ]
+  },
+  {
+    "name": "Saudi Arabia",
+    "isoCountryCode": "sa",
+    "ecc": "f0",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "e:bh",
+      "f:eg",
+      "8:ir",
+      "b:iq",
+      "5:jo",
+      "1:kw",
+      "6:om",
+      "2:qa",
+      "c:sd",
+      "d:ae",
+      "b:ye"
+    ]
+  },
+  {
+    "name": "Senegal",
+    "isoCountryCode": "sn",
+    "ecc": "d1",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "6:cv",
+      "8:gm",
+      "9:gn",
+      "a:gw",
+      "5:ml",
+      "4:mr"
+    ]
+  },
+  {
+    "name": "Serbia",
+    "isoCountryCode": "rs",
+    "ecc": "e2",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "9:al",
+      "f:ba",
+      "8:bg",
+      "c:hr",
+      "b:hu",
+      "3:mk",
+      "1:me",
+      "e:ro"
+    ]
+  },
+  {
+    "name": "Seychelles",
+    "isoCountryCode": "sc",
+    "ecc": "a4",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "c:km",
+      "4:mg",
+      "a:mu",
+      "d:tz"
+    ]
+  },
+  {
+    "name": "Sierra Leone",
+    "isoCountryCode": "sl",
+    "ecc": "d2",
+    "countryIds": [
+      "1"
+    ],
+    "nearbyCountries": [
+      "9:gn",
+      "2:lr"
+    ]
+  },
+  {
+    "name": "Singapore",
+    "isoCountryCode": "sg",
+    "ecc": "f2",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "c:id",
+      "f:my"
+    ]
+  },
+  {
+    "name": "Slovakia",
+    "isoCountryCode": "sk",
+    "ecc": "e2",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "a:at",
+      "2:cz",
+      "b:hu",
+      "8:pl",
+      "6:ua"
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "isoCountryCode": "si",
+    "ecc": "e4",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "a:at",
+      "c:hr",
+      "5:it",
+      "b:hu"
+    ]
+  },
+  {
+    "name": "Solomon Islands",
+    "isoCountryCode": "sb",
+    "ecc": "f1",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "1:au",
+      "2:au",
+      "3:au",
+      "4:au",
+      "5:au",
+      "6:au",
+      "7:au",
+      "8:au",
+      "9:pg",
+      "f:vu"
+    ]
+  },
+  {
+    "name": "Somalia",
+    "isoCountryCode": "so",
+    "ecc": "d2",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "3:dj",
+      "e:et",
+      "6:ke",
+      "b:ye"
+    ]
+  },
+  {
+    "name": "South Africa",
+    "isoCountryCode": "za",
+    "ecc": "d0",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "b:bw",
+      "6:ls",
+      "3:mz",
+      "1:na",
+      "5:sz",
+      "2:zw"
+    ]
+  },
+  {
+    "name": "South Sudan",
+    "isoCountryCode": "ss",
+    "ecc": "d4",
+    "countryIds": [
+      "a"
+    ],
+    "nearbyCountries": [
+      "2:cf",
+      "e:et",
+      "6:ke",
+      "c:sd",
+      "4:ug"
+    ]
+  },
+  {
+    "name": "Spain",
+    "isoCountryCode": "es",
+    "ecc": "e2",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "2:dz",
+      "3:ad",
+      "f:fr",
+      "5:it",
+      "1:ma",
+      "8:pt",
+      "a:gi"
+    ]
+  },
+  {
+    "name": "Sri Lanka",
+    "isoCountryCode": "lk",
+    "ecc": "f1",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "5:in",
+      "b:mv"
+    ]
+  },
+  {
+    "name": "Sudan",
+    "isoCountryCode": "sd",
+    "ecc": "d3",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "2:cf",
+      "9:td",
+      "f:eg",
+      "e:et",
+      "d:ly"
+    ]
+  },
+  {
+    "name": "Suriname",
+    "isoCountryCode": "sr",
+    "ecc": "a4",
+    "countryIds": [
+      "8"
+    ],
+    "nearbyCountries": [
+      "b:br",
+      "f:fr",
+      "f:gy"
+    ]
+  },
+  {
+    "name": "Svalbard",
+    "isoCountryCode": "sj",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "7:ru",
+      "f:gl"
+    ]
+  },
+  {
+    "name": "Swaziland",
+    "isoCountryCode": "sz",
+    "ecc": "d2",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "3:mz",
+      "a:za"
+    ]
+  },
+  {
+    "name": "Sweden",
+    "isoCountryCode": "se",
+    "ecc": "e3",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "9:dk",
+      "2:ee",
+      "6:fi",
+      "d:de",
+      "1:de",
+      "c:lt",
+      "f:no",
+      "8:pl",
+      "7:ru"
+    ]
+  },
+  {
+    "name": "Switzerland",
+    "isoCountryCode": "ch",
+    "ecc": "e1",
+    "countryIds": [
+      "4"
+    ],
+    "nearbyCountries": [
+      "a:at",
+      "f:fr",
+      "5:it",
+      "9:li",
+      "d:de",
+      "1:de"
+    ]
+  },
+  {
+    "name": "Taiwan",
+    "isoCountryCode": "tw",
+    "ecc": "f1",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "c:cn",
+      "9:jp",
+      "8:ph"
+    ]
+  },
+  {
+    "name": "Tajikistan",
+    "isoCountryCode": "tj",
+    "ecc": "e3",
+    "countryIds": [
+      "5"
+    ],
+    "nearbyCountries": [
+      "a:af",
+      "c:cn",
+      "3:kg",
+      "b:uz"
+    ]
+  },
+  {
+    "name": "Tanzania",
+    "isoCountryCode": "tz",
+    "ecc": "d1",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "9:bi",
+      "c:km",
+      "6:ke",
+      "f:mw",
+      "3:mz",
+      "5:rw",
+      "b:sc",
+      "4:ug",
+      "e:zm"
+    ]
+  },
+  {
+    "name": "Thailand",
+    "isoCountryCode": "th",
+    "ecc": "f3",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "b:mm",
+      "3:kh",
+      "5:in",
+      "c:id",
+      "1:la",
+      "f:my",
+      "7:vn"
+    ]
+  },
+  {
+    "name": "Togo",
+    "isoCountryCode": "tg",
+    "ecc": "d0",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "e:bj",
+      "b:bf",
+      "3:gh"
+    ]
+  },
+  {
+    "name": "Tokelau",
+    "isoCountryCode": "tk",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "1:ki",
+      "4:ws"
+    ]
+  },
+  {
+    "name": "Tonga",
+    "isoCountryCode": "to",
+    "ecc": "f3",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "5:fj",
+      "9:nz",
+      "4:ws"
+    ]
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "isoCountryCode": "tt",
+    "ecc": "a4",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "5:bb",
+      "d:gd",
+      "f:gy",
+      "e:ve"
+    ]
+  },
+  {
+    "name": "Tunisia",
+    "isoCountryCode": "tn",
+    "ecc": "e2",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "2:dz",
+      "5:it",
+      "d:ly"
+    ]
+  },
+  {
+    "name": "Turkey",
+    "isoCountryCode": "tr",
+    "ecc": "e3",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "a:am",
+      "b:az",
+      "8:bg",
+      "2:cy",
+      "f:eg",
+      "c:ge",
+      "1:gr",
+      "8:ir",
+      "b:iq",
+      "e:ro",
+      "7:ru",
+      "6:ua"
+    ]
+  },
+  {
+    "name": "Turkmenistan",
+    "isoCountryCode": "tm",
+    "ecc": "e4",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "a:af",
+      "8:ir",
+      "d:kz",
+      "b:uz"
+    ]
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "isoCountryCode": "tc",
+    "ecc": "a3",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "f:bs",
+      "b:do",
+      "d:ht"
+    ]
+  },
+  {
+    "name": "Tuvalu",
+    "isoCountryCode": "tv",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "5:fj",
+      "1:ki"
+    ]
+  },
+  {
+    "name": "Uganda",
+    "isoCountryCode": "ug",
+    "ecc": "d2",
+    "countryIds": [
+      "4"
+    ],
+    "nearbyCountries": [
+      "6:ke",
+      "5:rw",
+      "d:tz"
+    ]
+  },
+  {
+    "name": "Ukraine",
+    "isoCountryCode": "ua",
+    "ecc": "e4",
+    "countryIds": [
+      "6"
+    ],
+    "nearbyCountries": [
+      "f:by",
+      "b:hu",
+      "c:ge",
+      "1:md",
+      "8:pl",
+      "e:ro",
+      "7:ru",
+      "5:sk",
+      "3:tr"
+    ]
+  },
+  {
+    "name": "United Arab Emirates",
+    "isoCountryCode": "ae",
+    "ecc": "f2",
+    "countryIds": [
+      "d"
+    ],
+    "nearbyCountries": [
+      "8:ir",
+      "6:om",
+      "2:qa",
+      "9:sa"
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "isoCountryCode": "gb",
+    "ecc": "e1",
+    "countryIds": [
+      "c"
+    ],
+    "nearbyCountries": [
+      "6:be",
+      "9:dk",
+      "f:fr",
+      "d:de",
+      "1:de",
+      "2:ie",
+      "8:nl"
+    ]
+  },
+  {
+    "name": "United States",
+    "isoCountryCode": "us",
+    "ecc": "a0",
+    "countryIds": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "nearbyCountries": [
+      "c:ca",
+      "9:cu",
+      "1:ki",
+      "f:mx",
+      "7:ru"
+    ]
+  },
+  {
+    "name": "United States Virgin Islands",
+    "isoCountryCode": "vi",
+    "ecc": "a5",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "8:nl",
+      "e:ve",
+      "1:ai",
+      "f:vg"
+    ]
+  },
+  {
+    "name": "Uruguay",
+    "isoCountryCode": "uy",
+    "ecc": "a4",
+    "countryIds": [
+      "9"
+    ],
+    "nearbyCountries": [
+      "a:ar",
+      "b:br"
+    ]
+  },
+  {
+    "name": "Uzbekistan",
+    "isoCountryCode": "uz",
+    "ecc": "e4",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "a:af",
+      "d:kz",
+      "3:kg",
+      "5:tj",
+      "e:tm"
+    ]
+  },
+  {
+    "name": "Vanuatu",
+    "isoCountryCode": "vu",
+    "ecc": "f2",
+    "countryIds": [
+      "f"
+    ],
+    "nearbyCountries": [
+      "5:fj",
+      "a:sb"
+    ]
+  },
+  {
+    "name": "Vatican City",
+    "isoCountryCode": "va",
+    "ecc": "e2",
+    "countryIds": [
+      "4"
+    ],
+    "nearbyCountries": [
+      "5:it"
+    ]
+  },
+  {
+    "name": "Venezuela",
+    "isoCountryCode": "ve",
+    "ecc": "a4",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "5:bb",
+      "b:br",
+      "2:co",
+      "a:dm",
+      "f:gy",
+      "8:nl",
+      "c:vc",
+      "6:tt",
+      "3:aw",
+      "8:pr"
+    ]
+  },
+  {
+    "name": "Vietnam",
+    "isoCountryCode": "vn",
+    "ecc": "f2",
+    "countryIds": [
+      "7"
+    ],
+    "nearbyCountries": [
+      "3:kh",
+      "c:cn",
+      "c:id",
+      "1:la",
+      "f:my",
+      "8:ph",
+      "2:th"
+    ]
+  },
+  {
+    "name": "Wallis and Futuna",
+    "isoCountryCode": "wf",
+    "ecc": "xxxx",
+    "countryIds": [
+      "xxxx"
+    ],
+    "nearbyCountries": [
+      "5:fj",
+      "4:ws",
+      "3:to"
+    ]
+  },
+  {
+    "name": "Western Sahara",
+    "isoCountryCode": "eh",
+    "ecc": "d3",
+    "countryIds": [
+      "3"
+    ],
+    "nearbyCountries": [
+      "2:dz",
+      "4:mr",
+      "1:ma",
+      "e:es"
+    ]
+  },
+  {
+    "name": "Yemen",
+    "isoCountryCode": "ye",
+    "ecc": "f3",
+    "countryIds": [
+      "b"
+    ],
+    "nearbyCountries": [
+      "3:dj",
+      "6:om",
+      "9:sa",
+      "7:so"
+    ]
+  },
+  {
+    "name": "Zambia",
+    "isoCountryCode": "zm",
+    "ecc": "d2",
+    "countryIds": [
+      "e"
+    ],
+    "nearbyCountries": [
+      "6:ao",
+      "b:bw",
+      "f:mw",
+      "3:mz",
+      "1:na",
+      "d:tz",
+      "2:zw"
+    ]
+  },
+  {
+    "name": "Zimbabwe",
+    "isoCountryCode": "zw",
+    "ecc": "d2",
+    "countryIds": [
+      "2"
+    ],
+    "nearbyCountries": [
+      "b:bw",
+      "3:mz",
+      "a:za",
+      "e:zm"
+    ]
+  }
+]
