@@ -8,7 +8,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for CH + 4479', function () {
       var params = {
         'isoCountryCode': 'CH',
-        'rdsPi': '4479'
+        'pi': '4479'
       }
       it('should return one result of 4e1', function () {
         assert.deepEqual(['4e1'], resolver.resolveGCC(params))
@@ -18,7 +18,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for GB + C479', function () {
       var params = {
         'isoCountryCode': 'GB',
-        'rdsPi': 'C479'
+        'pi': 'C479'
       }
       it('should return one result of ce1', function () {
         assert.deepEqual(['ce1'], resolver.resolveGCC(params))
@@ -28,7 +28,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for AT + A479', function () {
       var params = {
         'isoCountryCode': 'AT',
-        'rdsPi': 'A479'
+        'pi': 'A479'
       }
       it('should return one result of ae0', function () {
         assert.deepEqual(['ae0'], resolver.resolveGCC(params))
@@ -38,7 +38,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with a country code and PI that don\'t resolve', function () {
       var params = {
         'isoCountryCode': 'CH',
-        'rdsPi': 'B479'
+        'pi': 'B479'
       }
       it('should return an empty result set', function () {
         assert.deepEqual([], resolver.resolveGCC(params))
@@ -47,14 +47,14 @@ describe('RadioDNS Country Resolver', function () {
 
     describe('with no country code', function () {
       var params = {
-        'rdsPi': 'A479'
+        'pi': 'A479'
       }
       it('should throw an exception', function () {
         assert.throws(
           function () {
             resolver.resolveGCC(params)
           },
-          /ISO Country Code OR Extended Country Code \(ECC\) value must be set/
+          /ISO Country Code \(isoCountryCode\) OR Extended Country Code \(ecc\) must be set/
         )
       })
     })
@@ -62,7 +62,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with a RDS PI code that is too short', function () {
       var params = {
         'isoCountryCode': 'GB',
-        'rdsPi': 'A'
+        'pi': 'A'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -77,7 +77,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with a RDS PI code that is too long', function () {
       var params = {
         'isoCountryCode': 'GB',
-        'rdsPi': 'AAAAA'
+        'pi': 'AAAAA'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -92,7 +92,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with an illegal RDS PI code', function () {
       var params = {
         'isoCountryCode': 'GB',
-        'rdsPi': 'XXXX'
+        'pi': 'XXXX'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -107,7 +107,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with invalid country code', function () {
       var params = {
         'isoCountryCode': 'XX',
-        'rdsPi': 'A479'
+        'pi': 'A479'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -122,7 +122,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with a three character country code', function () {
       var params = {
         'isoCountryCode': 'GBR',
-        'rdsPi': 'C479'
+        'pi': 'C479'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -139,7 +139,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for GB + C479', function () {
       var params = {
         'isoCountryCode': 'GB',
-        'dabSid': 'C479'
+        'sid': 'C479'
       }
       it('should return one result of ce1', function () {
         assert.deepEqual(['ce1'], resolver.resolveGCC(params))
@@ -148,7 +148,7 @@ describe('RadioDNS Country Resolver', function () {
 
     describe('for a 32-bit DAB Sid E1C00098', function () {
       var params = {
-        'dabSid': 'E1C00098'
+        'sid': 'E1C00098'
       }
       it('should return one result of ce1', function () {
         assert.deepEqual(['ce1'], resolver.resolveGCC(params))
@@ -158,7 +158,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with a DAB Sid code that is too short', function () {
       var params = {
         'isoCountryCode': 'GB',
-        'dabSid': 'A'
+        'sid': 'A'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -173,7 +173,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with a DAB Sid code that is too long', function () {
       var params = {
         'isoCountryCode': 'GB',
-        'dabSid': 'AAAAA'
+        'sid': 'AAAAA'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -188,7 +188,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with an illegal DAB Sid code', function () {
       var params = {
         'isoCountryCode': 'GB',
-        'dabSid': 'XXXX'
+        'sid': 'XXXX'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -203,7 +203,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with invalid country code', function () {
       var params = {
         'isoCountryCode': 'XX',
-        'dabSid': 'A479'
+        'sid': 'A479'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -218,7 +218,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with a three character country code', function () {
       var params = {
         'isoCountryCode': 'GBR',
-        'dabSid': 'C479'
+        'sid': 'C479'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -233,7 +233,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with a country code and DAB Sid that don\'t resolve', function () {
       var params = {
         'isoCountryCode': 'CH',
-        'dabSid': 'B479'
+        'sid': 'B479'
       }
       it('should return an empty result set', function () {
         assert.deepEqual([], resolver.resolveGCC(params))
@@ -245,7 +245,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for CH + D479', function () {
       var params = {
         'isoCountryCode': 'ch',
-        'rdsPi': 'd479'
+        'pi': 'd479'
       }
       it('should return one result of de0', function () {
         assert.deepEqual(['de0'], resolver.resolveGCC(params))
@@ -255,7 +255,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for GB + 2479', function () {
       var params = {
         'isoCountryCode': 'GB',
-        'rdsPi': '2479'
+        'pi': '2479'
       }
       it('should return one result of de0', function () {
         assert.deepEqual(['2e3'], resolver.resolveGCC(params))
@@ -265,7 +265,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for AT + 5479', function () {
       var params = {
         'isoCountryCode': 'AT',
-        'rdsPi': '5479'
+        'pi': '5479'
       }
       it('return two results of 5e0 & 5e2', function () {
         assert.deepEqual(['5e0', '5e2'], resolver.resolveGCC(params))
@@ -277,7 +277,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for E0 + D479', function () {
       var params = {
         'ecc': 'E0',
-        'rdsPi': 'D479'
+        'pi': 'D479'
       }
       it('should return one result of de0', function () {
         assert.deepEqual(['de0'], resolver.resolveGCC(params))
@@ -287,7 +287,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with a PI that doesn\'t resolve', function () {
       var params = {
         'ecc': 'FF',
-        'rdsPi': 'F479'
+        'pi': 'F479'
       }
       it('should return an empty result set', function () {
         assert.deepEqual([], resolver.resolveGCC(params))
@@ -297,7 +297,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for an invalid ECC code', function () {
       var params = {
         'ecc': 'XX',
-        'rdsPi': 'D479'
+        'pi': 'D479'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -314,7 +314,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for E0 + D479', function () {
       var params = {
         'ecc': 'E0',
-        'dabSid': 'D479'
+        'sid': 'D479'
       }
       it('should return one result of de0', function () {
         assert.deepEqual(['de0'], resolver.resolveGCC(params))
@@ -324,7 +324,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('with with Sid that doesn\'t resolve', function () {
       var params = {
         'ecc': 'FF',
-        'dabSid': 'F479'
+        'sid': 'F479'
       }
       it('should return an empty result set', function () {
         assert.deepEqual([], resolver.resolveGCC(params))
@@ -334,7 +334,7 @@ describe('RadioDNS Country Resolver', function () {
     describe('for an invalid ECC code', function () {
       var params = {
         'ecc': 'XX',
-        'dabSid': 'D479'
+        'sid': 'D479'
       }
       it('should throw an exception', function () {
         assert.throws(
@@ -356,7 +356,7 @@ describe('RadioDNS Country Resolver', function () {
         function () {
           resolver.resolveGCC(params)
         },
-        /RDS Programme Identification \(rdsPi\) OR DAB Service Identifier \(dabSid\)/
+        /RDS Programme Identification \(pi\) OR DAB Service Identifier \(sid\)/
       )
     })
   })
