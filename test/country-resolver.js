@@ -34,6 +34,105 @@ describe('RadioDNS Country Resolver', function () {
         assert.deepEqual(['ae0'], resolver.resolveGCC(params))
       })
     })
+
+    describe('with a country code and PI that don\'t resolve', function () {
+      var params = {
+        'isoCountryCode': 'CH',
+        'rdsPi': 'B479'
+      }
+      it('should return an empty result set', function () {
+        assert.deepEqual([], resolver.resolveGCC(params))
+      })
+    })
+
+    describe('with no country code', function () {
+      var params = {
+        'rdsPi': 'A479'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /ISO Country Code OR Extended Country Code \(ECC\) value must be set/
+        )
+      })
+    })
+
+    describe('with a RDS PI code that is too short', function () {
+      var params = {
+        'isoCountryCode': 'GB',
+        'rdsPi': 'A'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Invalid PI value. Value must be a valid hexadecimal string/
+        )
+      })
+    })
+
+    describe('with a RDS PI code that is too long', function () {
+      var params = {
+        'isoCountryCode': 'GB',
+        'rdsPi': 'AAAAA'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Invalid PI value. Value must be a valid hexadecimal string/
+        )
+      })
+    })
+
+    describe('with an illegal RDS PI code', function () {
+      var params = {
+        'isoCountryCode': 'GB',
+        'rdsPi': 'XXXX'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Invalid PI value. Value must be a valid hexadecimal string/
+        )
+      })
+    })
+
+    describe('with invalid country code', function () {
+      var params = {
+        'isoCountryCode': 'XX',
+        'rdsPi': 'A479'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /The supplied ISO Country Code is not recognised/
+        )
+      })
+    })
+
+    describe('with a three character country code', function () {
+      var params = {
+        'isoCountryCode': 'GBR',
+        'rdsPi': 'C479'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Invalid country code. Must be an ISO 3166-1 alpha-2 country code/
+        )
+      })
+    })
   })
 
   describe('given DAB SID Code matches the Country Code', function () {
@@ -53,6 +152,91 @@ describe('RadioDNS Country Resolver', function () {
       }
       it('should return one result of ce1', function () {
         assert.deepEqual(['ce1'], resolver.resolveGCC(params))
+      })
+    })
+
+    describe('with a DAB Sid code that is too short', function () {
+      var params = {
+        'isoCountryCode': 'GB',
+        'dabSid': 'A'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Invalid Service Identifier \(SId\) value. Must be a valid 4 or 8-character hexadecimal string/
+        )
+      })
+    })
+
+    describe('with a DAB Sid code that is too long', function () {
+      var params = {
+        'isoCountryCode': 'GB',
+        'dabSid': 'AAAAA'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Invalid Service Identifier \(SId\) value. Must be a valid 4 or 8-character hexadecimal string/
+        )
+      })
+    })
+
+    describe('with an illegal DAB Sid code', function () {
+      var params = {
+        'isoCountryCode': 'GB',
+        'dabSid': 'XXXX'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Invalid Service Identifier \(SId\) value. Must be a valid 4 or 8-character hexadecimal string/
+        )
+      })
+    })
+
+    describe('with invalid country code', function () {
+      var params = {
+        'isoCountryCode': 'XX',
+        'dabSid': 'A479'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /The supplied ISO Country Code is not recognised/
+        )
+      })
+    })
+
+    describe('with a three character country code', function () {
+      var params = {
+        'isoCountryCode': 'GBR',
+        'dabSid': 'C479'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Invalid country code. Must be an ISO 3166-1 alpha-2 country code/
+        )
+      })
+    })
+
+    describe('with a country code and DAB Sid that don\'t resolve', function () {
+      var params = {
+        'isoCountryCode': 'CH',
+        'dabSid': 'B479'
+      }
+      it('should return an empty result set', function () {
+        assert.deepEqual([], resolver.resolveGCC(params))
       })
     })
   })
@@ -99,6 +283,31 @@ describe('RadioDNS Country Resolver', function () {
         assert.deepEqual(['de0'], resolver.resolveGCC(params))
       })
     })
+
+    describe('with a PI that doesn\'t resolve', function () {
+      var params = {
+        'ecc': 'FF',
+        'rdsPi': 'F479'
+      }
+      it('should return an empty result set', function () {
+        assert.deepEqual([], resolver.resolveGCC(params))
+      })
+    })
+
+    describe('for an invalid ECC code', function () {
+      var params = {
+        'ecc': 'XX',
+        'rdsPi': 'D479'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Value must be a valid hexadecimal Extended Country Code/
+        )
+      })
+    })
   })
 
   describe('given a DAB ECC', function () {
@@ -110,6 +319,45 @@ describe('RadioDNS Country Resolver', function () {
       it('should return one result of de0', function () {
         assert.deepEqual(['de0'], resolver.resolveGCC(params))
       })
+    })
+
+    describe('with with Sid that doesn\'t resolve', function () {
+      var params = {
+        'ecc': 'FF',
+        'dabSid': 'F479'
+      }
+      it('should return an empty result set', function () {
+        assert.deepEqual([], resolver.resolveGCC(params))
+      })
+    })
+
+    describe('for an invalid ECC code', function () {
+      var params = {
+        'ecc': 'XX',
+        'dabSid': 'D479'
+      }
+      it('should throw an exception', function () {
+        assert.throws(
+          function () {
+            resolver.resolveGCC(params)
+          },
+          /Value must be a valid hexadecimal Extended Country Code/
+        )
+      })
+    })
+  })
+
+  describe('with no RDS PI or DAB SID', function () {
+    var params = {
+      'isoCountryCode': 'GB'
+    }
+    it('should throw an exception', function () {
+      assert.throws(
+        function () {
+          resolver.resolveGCC(params)
+        },
+        /RDS Programme Identification \(rdsPi\) OR DAB Service Identifier \(dabSid\)/
+      )
     })
   })
 })
