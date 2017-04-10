@@ -38,7 +38,7 @@ the resolve method:
       system: 'fm',
       frequency: 95.8,
       pi: 'c479',
-      gcc: 'ce1'
+      ecc: 'e1'
     }
 
     radiodns.resolve(params, function(err, fqdn) {
@@ -52,7 +52,7 @@ To perform the next step and resolve the servers for a specific application:
       system: 'fm',
       frequency: 95.8,
       pi: 'c479',
-      gcc: 'ce1'
+      ecc: 'e1'
     }
 
     radiodns.resolveApplication(params, 'radiovis', function (err, result) {
@@ -94,6 +94,35 @@ The required parameters for each of these systems are:
   * `tx`: Transmitter Identifier
   * `cc`: Country Code
 
+
+## Country Resolution
+
+For FM and DAB The library supports calculating the Global Country Code (gcc)
+from Extended Country Code (ecc) - see the FM example at the top.
+
+However it is common for FM broadcasts to lack RDS ECC, a field which would otherwise 
+confirm the country of origin of the broadcast. Other information such as the physical 
+location of the device could be used on its own, however that doesn't consider the 
+scenario of being  on or close to a country border. This library enables the accurate 
+resolution of the  country of origin by taking as inputs the RDS PI or DAB SID and 
+the two-letter country  code of the physical location of the radio device 
+(obtained, for example, using GPS).
+
+    var params = {
+      'system': 'fm',
+      'isoCountryCode': 'GB',
+      'pi': 'c204',
+      'frequency': 96.00
+    }
+
+    radiodns.resolve(params, function(err, fqdn) {
+      console.log(fqdn) // => radiodns.api.bbci.co.uk
+    })
+
+Passing in invalid parameters with throw an error.
+
+For more information about country resolution, see the RadioDNS specification - 
+[ETSI TS 103 270].
 
 
 ## Running Tests

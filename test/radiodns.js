@@ -30,6 +30,28 @@ describe('RadioDNS', function () {
         assert.equal('09580.c585.ce1.fm.radiodns.org', fqdn)
       })
 
+      it('should calculate a gcc if an ecc is given', function () {
+        var params = {
+          'system': 'fm',
+          'ecc': 'e0',
+          'pi': 'd1e0',
+          'frequency': 103.9
+        }
+        var fqdn = radiodns.constructFQDN(params)
+        assert.equal('10390.d1e0.de0.fm.radiodns.org', fqdn)
+      })
+
+      it('should calculate a gcc if an ISO country code is given', function () {
+        var params = {
+          'system': 'fm',
+          'isoCountryCode': 'IE',
+          'pi': 'c204',
+          'frequency': 96.00
+        }
+        var fqdn = radiodns.constructFQDN(params)
+        assert.equal('09600.c204.ce1.fm.radiodns.org', fqdn)
+      })
+
       it('should throw if parameters are missing', function () {
         var params = {
           'system': 'fm',
@@ -79,6 +101,28 @@ describe('RadioDNS', function () {
         }
         var fqdn = radiodns.constructFQDN(params)
         assert.equal('004.0.e1c00098.c185.ce1.dab.radiodns.org', fqdn)
+      })
+
+      it('should calculate a gcc if an ecc is given', function () {
+        var params = {
+          'system': 'dab',
+          'ecc': 'e1',
+          'eid': 'c18c',
+          'sid': 'cc86'
+        }
+        var fqdn = radiodns.constructFQDN(params)
+        assert.equal('0.cc86.c18c.ce1.dab.radiodns.org', fqdn)
+      })
+
+      it('should calculate a gcc if an ISO country code is given', function () {
+        var params = {
+          'system': 'dab',
+          'isoCountryCode': 'GB',
+          'eid': 'c18c',
+          'sid': 'cc86'
+        }
+        var fqdn = radiodns.constructFQDN(params)
+        assert.equal('0.cc86.c18c.ce1.dab.radiodns.org', fqdn)
       })
 
       it('should throw if parameters are missing', function () {
