@@ -30,6 +30,17 @@ describe('RadioDNS', function () {
         assert.equal('09580.c585.ce1.fm.radiodns.org', fqdn)
       })
 
+      it('should construct a fqdn when frequency is supplied as a number that doesn\'t need padding', function () {
+        var params = {
+          'system': 'fm',
+          'gcc': '5e0',
+          'pi': '5001',
+          'frequency': 107.75
+        }
+        var fqdn = radiodns.constructFQDN(params)
+        assert.equal('10775.5001.5e0.fm.radiodns.org', fqdn)
+      })
+
       it('should throw if parameters are missing', function () {
         var params = {
           'system': 'fm',
