@@ -11,8 +11,8 @@ describe('RadioDNS', function () {
       it('should construct a fqdn when frequency is supplied as a number', function () {
         var params = {
           'system': 'fm',
-          'gcc': 'ce1',
-          'pi': 'c585',
+          'gcc': 'CE1',
+          'pi': 'C585',
           'frequency': 95.8
         }
         var fqdn = radiodns.constructFQDN(params)
