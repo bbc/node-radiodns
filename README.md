@@ -8,7 +8,7 @@ RadioDNS node.js Library
 
 Perform [RadioDNS] resolutions and service lookups in [node.js].
 
-RadioVis was standardised in [ETSI TS 103 270],
+RadioDNS was standardised in [ETSI TS 103 270],
 _RadioDNS Hybrid Radio; Hybrid lookup for radio services_.
 
 
@@ -30,6 +30,11 @@ in the RadioDNS spec ([ETSI TS 103 270]), you can resolve it into a CNAME like s
       console.log(fqdn) // => rdns.musicradio.com
     })
 
+Or lookup a bearerURI:
+
+    radiodns.resolve('fm:ce1.c479.09580', function(err, fqdn) {
+      console.log(fqdn) // => rdns.musicradio.com
+    })
 
 You can also pass in the parameters required to construct the FQDN to
 the resolve method:
@@ -138,10 +143,10 @@ To generate a test coverage report:
 
 Copyright 2017 British Broadcasting Corporation
 
-The RadioVis STOMP Server is free software; you can redistribute it and/or
+The RadioDNS library for node.js is free software; you can redistribute it and/or
 modify it under the terms of the Apache License, Version 2.0.
 
-The RadioVis STOMP Server is distributed in the hope that it will be useful,
+The RadioDNS library for node.js is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 or FITNESS FOR A PARTICULAR PURPOSE.  See the Apache License, Version 2.0 for
 more details.
