@@ -30,6 +30,11 @@ in the RadioDNS spec ([ETSI TS 103 270]), you can resolve it into a CNAME like s
       console.log(fqdn) // => rdns.musicradio.com
     })
 
+Or lookup a bearerURI:
+
+    radiodns.resolve('fm:ce1.c479.09580', function(err, fqdn) {
+      console.log(fqdn) // => rdns.musicradio.com
+    })
 
 You can also pass in the parameters required to construct the FQDN to
 the resolve method:
