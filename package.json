@@ -1,6 +1,6 @@
 {
   "name": "radiodns",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Perform RadioDNS resolutions and service lookups in node.js",
   "main": "index.js",
   "scripts": {
